@@ -2,20 +2,20 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Countdown Timer</title>
+    <title>Timer</title>
     <link rel="stylesheet" href="./css/styles.css" />
   </head>
   <body>
-    <!-- Header підвантажимо через JS -->
-    <load src="./partials/header.html"></load>
-
     <main>
       <div class="container">
-        <h1 class="main-title">Countdown Timer</h1>
+        <a class="back-link" href="./index.html">Go back</a>
+
+        <h1 class="main-title">Timer</h1>
 
         <input type="text" id="datetime-picker" />
-        <button type="button" data-start disabled>Start</button>
+        <button type="button" data-start>Start</button>
 
         <div class="timer">
           <div class="field">
@@ -38,9 +38,6 @@
       </div>
     </main>
 
-    <load src="./partials/footer.html"></load>
-
     <script type="module" src="./js/1-timer.js"></script>
-    <!-- 1-timer.html -->
   </body>
 </html>
