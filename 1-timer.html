@@ -2,24 +2,24 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Countdown Timer</title>
+    <title>Timer</title>
     <script type="module" crossorigin src="/goit-js-hw-10/1-timer.js"></script>
     <link rel="modulepreload" crossorigin href="/goit-js-hw-10/assets/modulepreload-polyfill-B5Qt9EMX.js">
     <link rel="modulepreload" crossorigin href="/goit-js-hw-10/assets/vendor-fyLdAcWF.js">
     <link rel="stylesheet" crossorigin href="/goit-js-hw-10/assets/vendor-1Mt4gqrI.css">
-    <link rel="stylesheet" crossorigin href="/goit-js-hw-10/assets/styles-CFrPtiMb.css">
+    <link rel="stylesheet" crossorigin href="/goit-js-hw-10/assets/styles-LGFvY_vJ.css">
   </head>
   <body>
-    <!-- Header підвантажимо через JS -->
-    <load src="./partials/header.html"></load>
-
     <main>
       <div class="container">
-        <h1 class="main-title">Countdown Timer</h1>
+        <a class="back-link" href="./index.html">Go back</a>
+
+        <h1 class="main-title">Timer</h1>
 
         <input type="text" id="datetime-picker" />
-        <button type="button" data-start disabled>Start</button>
+        <button type="button" data-start>Start</button>
 
         <div class="timer">
           <div class="field">
@@ -42,8 +42,5 @@
       </div>
     </main>
 
-    <load src="./partials/footer.html"></load>
-
-    <!-- 1-timer.html -->
   </body>
 </html>
